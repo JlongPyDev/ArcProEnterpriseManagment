@@ -7,9 +7,9 @@ arcpy.env.overwriteOutput=1
 
 #port = 'https://www.arcgis.com'
 port = arcpy.GetParameterAsText(0)
-#user = 'mgriffin_apexnc'
+#user = '#'
 user = arcpy.GetParameterAsText(1)
-#passw = 'Apex2019'
+#passw = '#'
 passw = arcpy.GetParameterAsText(2)
 
 
